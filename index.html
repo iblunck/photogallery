@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photo Gallery Assignment - TK Photography</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+    <body>
+        <header>
+            <nav>
+                <h1>TK Photography</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#top">top</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <h2>About</h2>
+                <p>Hello!</p>
+                <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it’s taken me all over the world.</p>
+            </section>
+            <section id="gallery">
+                <h2>Gallery</h2>
+                <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+                <!-- should these sections be separated or remain one? -->
+                <!-- </section>
+                <section> -->
+                <img src="images/Chile.png" alt="Chile Coastline">
+                <p>Chile, 2001</p>
+                <img src="images/Guatemala.png" alt="Guatemala Flowers">
+                <p>Guatemala, 1997</p>
+                <img src="images/Hawaii.png" alt="Hawaii Coastline">
+                <p>Hawaii, 2010</p>
+                <img src="images/Iran.png" alt="Iran Brush">
+                <p>Iran, 1999</p>
+                <img src="images/Ireland.png" alt="Ireland Hills">
+                <p>Ireland, 2012</p>
+                <img src="images/Italy.png" alt="Italy Alps">
+                <p>Italy, 2015</p>
+                <img src="images/Moab-Desert.png" alt="Moab Desert Horizon">
+                <p>Moab Desert, 2020</p>
+                <img src="images/Rocky-Mountains.png" alt="Rocky Mountains Range">
+                <p>Rocky Mountains, 2009</p>
+                <img src="images/Switzerland.png" alt="Switzerland Mountain Range">
+                <p>Switzerland, 2014</p>
+                <img src="images/UK.png" alt="UK Rolling Hills">
+                <p>UK, 2005</p>
+                <img src="images/USA.png" alt="USA Meadow">
+                <p>USA, 2021</p>
+                <img src="images/Wyoming.png" alt="Wyoming Forest Shoreline">
+                <p>Wyoming, 2021</p>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Please fill out this form and I’ll connect with you soon.</p>
+                <form>
+                    <!-- invisible contact form heading -->
+                    <h3>Your contact information</h3>
+                    <!-- name input box -->
+                    <label for="name">Name</label><input type="text" id="name" name="name" required minlength="4" maxlength="20" size="10" placeholder="Your full name">
+                    <!-- email input box -->
+                    <label for="email">Email</label><input type="email" id="email" name="email" placeholder="Enter your email address">
+                    <!-- message input box -->
+                    <label for="message">Message</label><textarea id="message" name="message" rows="4" cols="50" placeholder="What can I help you with?"></textarea>
+                    <!-- submit button -->
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            Copyright 2021 TK Photography
+        </footer>
+    </body>
+</html>
+
+
