@@ -199,26 +199,36 @@ form {
 input[type=submit] {
     text-transform:uppercase;
     color: white;
-    padding: 10px 90px;
+    padding: 10px 40px 10px 40px;
     background: #007d7b;
     border: none;
     border-radius: 15px;
-    position: absolute;
+    /* position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 20px;
+    transform: translate(-80%, -50%); */
+    margin-top: 80px;
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+#submit-button {
+    align-items: center;
 }
 label {
     font-size: 1em;
     text-transform:uppercase;
     display: block;
     padding-left: 11px;
+    margin-left: 30px;
 }
 input {
     font-size: 1em;
     font-weight: bold;
     padding: 9px;
     margin-bottom: 25px;
+    width: 350px;
+    margin-left: 30px;
 }
 small {
     font-size: 1em;
@@ -282,14 +292,16 @@ footer {
         transform: translate(115%, -60%);
     }
     form {
-        margin-left: 80px;
+        margin-left: 55px;
     }
     input {
         width: 655px;
     }
     input[type=submit] {
         width: 400px;
-        margin-top: 90px;
+        margin-top: 20px;
+        margin-left: 165px;
+        align-items: center;
     }
 }
 @media screen and (min-width: 1300px) {
@@ -339,13 +351,14 @@ footer {
         transform: translate(275%, -60%);
     }
     form {
-        margin-left: 90px;
+        margin-left: 70px;
     }
     input {
         width: 1050px;
     }
     input[type=submit] {
         width: 600px;
-        margin-top: 90px;
+        margin-top: 20px;
+        margin-left: 260px;
     } 
 }
