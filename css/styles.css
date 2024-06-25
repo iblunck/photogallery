@@ -1,63 +1,351 @@
-* {
-
-}
 html {
-
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+    width: 485px;
+    margin: 0 auto;
 }
-body {
-
-}
-header {
-
-}
-nav {
-
+nav a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
 }
 ul {
-
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 li {
-
+    list-style-type: none;
+    font-weight: bold;
+    padding: 10px;
+    
 }
 [href="#top"] {
     /* positioning of "top" button */
+    position: fixed;
+    border: 2px solid white;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    padding: 10px;
 }
 main {
-
+    background-color: white;
+    margin: 15px;
 }
-#about {
-    
+#about h2 {
+    padding-top: 15px;
+}
+#about p {
+    text-align: left;
+    padding-left: 10px;
+    line-height: 1.5;
 }
 #gallery {
-
+    margin-bottom: -20px;
 }
-#contact {
-
+#gallery p {
+    text-align: left;
+    padding-left: 10px;
+    margin-top: -5px;
+    position: relative;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 3em;
+    color: #007d7b;
+    text-transform:uppercase;
+    background-color: white;
+    margin: -8px 15px 0px 15px;
+    white-space: nowrap;
+    letter-spacing: -2px;
+    max-height: 5rem;
+    padding: 7px 0px 7px 0px;
 }
 h2 {
-
+    font-size: 2em;
+    text-transform:uppercase;
 }
 p {
-
+    font-size: 1.25em;
 }
 img {
-
+    width: 380px;
+    height: auto;
+    padding-bottom: 20px;
+}
+#gallery #location-chile, #gallery #location-hawaii{
+    text-transform:uppercase;
+    display: block;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -45px;
+}
+#gallery #location-guatemala {
+    text-transform:uppercase;
+    display: block;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -255px;
+}
+#gallery #location-iran {
+    text-transform:uppercase;
+    display: block;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -570px;
+}
+#gallery #location-ireland {
+    text-transform:uppercase;
+    display: block;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -575px;
+}
+#gallery #location-italy {
+    text-transform:uppercase;
+    display: block;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -45px;
+}
+#gallery #location-moab {
+    text-transform:uppercase;
+    display: block;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -45px;
+}
+#gallery #location-rocky {
+    text-transform:uppercase;
+    display: block;
+    color: black;
+    position: absolute;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    margin-top: -258px;
+    letter-spacing: -.8px;
+}
+#gallery #location-switzerland {
+    text-transform:uppercase;
+    display: block;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -255px;
+}
+#gallery #location-uk {
+    text-transform:uppercase;
+    display: block;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -255px;
+}
+#gallery #location-usa {
+    text-transform:uppercase;
+    display: block;
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -255px;
+}
+#gallery #location-wyoming {
+    text-transform:uppercase;
+    display: block;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -255px;
+}
+#contact {
+    background-color: black;
+    color: white;
+}
+#contact p {
+    padding-bottom: 20px;
+}
+#contact h2 {
+    padding-top: 15px;
+}
+#contact h3 {
+    display: none;
 }
 form {
-
+    text-align: left;
 }
-h3 {
-
+::placeholder {
+    text-transform:uppercase;
+    color: #007d7b;
 }
-#name {
-
+input[type=submit] {
+    text-transform:uppercase;
+    color: white;
+    padding: 10px 90px;
+    background: #007d7b;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
 }
-#email {
-
+label {
+    font-size: 1em;
+    text-transform:uppercase;
+    display: block;
+    padding-left: 11px;
 }
-#message {
-
+input {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 9px;
+    margin-bottom: 25px;
+}
+small {
+    font-size: 1em;
+}
+figcaption {
+    font-size: 1em;
 }
 footer {
-    
+    text-transform:uppercase;
+    color: white;
+    margin-top: 115px;
+}
+@media screen and (min-width: 880px) {
+    html {
+        width: 880px;
+    }
+    h1 {
+        text-align: left;
+        padding-left: 10px;
+    }
+    img {
+        margin: 0px 10px 0px 10px;
+    }
+    #gallery #location-chile {
+        left: 33%;
+    }
+    #gallery #location-guatemala {
+        transform: translate(90%, -50%);
+    }
+    #gallery #location-hawaii {
+        transform: translate(-250%, -1740%);
+    }
+    #gallery #hawaii {
+        margin-bottom: 316px;
+    }
+    #gallery #location-iran {
+        transform: translate(195%, -65%);
+    }
+    #gallery #location-ireland {
+        transform: translate(-225%, -20%);
+    }
+    #gallery #location-italy {
+        transform: translate(185%, -50%);
+    }
+    #gallery #location-rocky {
+        transform: translate(62%, -40%);
+    }
+    #gallery #location-moab {
+        transform: translate(-175%, -30%);
+    }
+    #gallery #location-switzerland {
+        transform: translate(-170%, -50%);
+    }
+    #gallery #location-uk {
+        transform: translate(250%, -60%);
+    }
+    #gallery #location-usa {
+        transform: translate(-315%, -60%);
+    }
+    #gallery #location-wyoming {
+        transform: translate(115%, -60%);
+    }
+    form {
+        margin-left: 80px;
+    }
+    input {
+        width: 655px;
+    }
+    input[type=submit] {
+        width: 400px;
+        margin-top: 90px;
+    }
+}
+@media screen and (min-width: 1300px) {
+    html {
+        width: 1300px;
+    }
+    ul {
+        justify-content: right;
+    }
+    #gallery #location-chile {
+        transform: translate(-230%, -35%);
+    }
+    #gallery #location-guatemala {
+        transform: translate(-55%, -50%);
+    }
+    #gallery #hawaii {
+        margin-bottom: 0px;
+    }
+    #gallery #location-hawaii {
+        transform: translate(355%, -25%);
+    }
+    #gallery #location-iran {
+        transform: translate(-540%, -65%);
+    }
+    #gallery #location-ireland {
+        transform: translate(-40%, -40%);
+    }
+    #gallery #location-italy {
+        transform: translate(425%, -50%);
+    }
+    #gallery #location-rocky {
+        transform: translate(-48%, -40%);
+    }
+    #gallery #location-moab {
+        transform: translate(-305%, -40%);
+    }
+    #gallery #location-switzerland {
+        transform: translate(205%, -60%);
+    }
+    #gallery #location-uk {
+        transform: translate(-660%, -60%);
+    }
+    #gallery #location-usa {
+        transform: translate(-45%, -60%);
+    }
+    #gallery #location-wyoming {
+        transform: translate(275%, -60%);
+    }
+    form {
+        margin-left: 90px;
+    }
+    input {
+        width: 1050px;
+    }
+    input[type=submit] {
+        width: 600px;
+        margin-top: 90px;
+    } 
 }

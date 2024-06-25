@@ -15,7 +15,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#top">top</a></li>
+                    <li id="top"><a href="#top">top</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,29 +32,29 @@
                 <!-- </section>
                 <section> -->
                 <img src="images/Chile.png" alt="Chile Coastline">
-                <p>Chile, 2001</p>
+                <figcaption id="location-chile">Chile, 2001</figcaption>
                 <img src="images/Guatemala.png" alt="Guatemala Flowers">
-                <p>Guatemala, 1997</p>
-                <img src="images/Hawaii.png" alt="Hawaii Coastline">
-                <p>Hawaii, 2010</p>
+                <figcaption id="location-guatemala">Guatemala, 1997</figcaption>
+                <img id="hawaii" src="images/Hawaii.png" alt="Hawaii Coastline">
+                <figcaption id="location-hawaii">Hawaii, 2010</figcaption>
                 <img src="images/Iran.png" alt="Iran Brush">
-                <p>Iran, 1999</p>
+                <figcaption id="location-iran">Iran, 1999</figcaption>
                 <img src="images/Ireland.png" alt="Ireland Hills">
-                <p>Ireland, 2012</p>
+                <figcaption id="location-ireland">Ireland, 2012</figcaption>
                 <img src="images/Italy.png" alt="Italy Alps">
-                <p>Italy, 2015</p>
+                <figcaption id="location-italy">Italy, 2015</figcaption>
                 <img src="images/Moab-Desert.png" alt="Moab Desert Horizon">
-                <p>Moab Desert, 2020</p>
+                <figcaption id="location-moab">Moab Desert, 2020</figcaption>
                 <img src="images/Rocky-Mountains.png" alt="Rocky Mountains Range">
-                <p>Rocky Mountains, 2009</p>
+                <figcaption id="location-rocky">Rocky Mountains, 2009</figcaption>
                 <img src="images/Switzerland.png" alt="Switzerland Mountain Range">
-                <p>Switzerland, 2014</p>
+                <figcaption id="location-switzerland">Switzerland, 2014</figcaption>
                 <img src="images/UK.png" alt="UK Rolling Hills">
-                <p>UK, 2005</p>
+                <figcaption id="location-uk">UK, 2005</figcaption>
                 <img src="images/USA.png" alt="USA Meadow">
-                <p>USA, 2021</p>
+                <figcaption id="location-usa">USA, 2021</figcaption>
                 <img src="images/Wyoming.png" alt="Wyoming Forest Shoreline">
-                <p>Wyoming, 2021</p>
+                <figcaption id="location-wyoming">Wyoming, 2021</figcaption>
             </section>
             <section id="contact">
                 <h2>Contact</h2>
@@ -63,18 +63,19 @@
                     <!-- invisible contact form heading -->
                     <h3>Your contact information</h3>
                     <!-- name input box -->
-                    <label for="name">Name</label><input type="text" id="name" name="name" required minlength="4" maxlength="20" size="10" placeholder="Your full name">
+                    <label class="label" for="name">Name</label><input type="text" id="name" name="name" required minlength="4" maxlength="20" size="50" placeholder="Your full name">
                     <!-- email input box -->
-                    <label for="email">Email</label><input type="email" id="email" name="email" placeholder="Enter your email address">
+                    <label class="label" for="email">Email</label><input type="email" id="email" name="email" size="50" placeholder="Enter your email address">
                     <!-- message input box -->
-                    <label for="message">Message</label><textarea id="message" name="message" rows="4" cols="50" placeholder="What can I help you with?"></textarea>
+                    <!-- <label class="label" for=""></label><textarea id="" name="" rows="1" cols="49" placeholder=""></textarea> -->
+                    <label class="label" for="message">Message</label><input type="text" id="message" name="message" required minlength="4" maxlength="200" size="50" placeholder="What can I help you with?">
                     <!-- submit button -->
                     <input type="submit" value="Submit">
                 </form>
             </section>
         </main>
         <footer>
-            Copyright 2021 TK Photography
+            <p>Copyright 2021 TK Photography</p>
         </footer>
     </body>
 </html>
