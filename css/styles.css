@@ -345,4 +345,19 @@ footer {
     }
     #gallery #location-usa {
         transform: translate(-60%, -60%);
-    
+    }
+    #gallery #location-wyoming {
+        transform: translate(250%, -60%);
+    }
+    form {
+        margin-left: 70px;
+    }
+    input {
+        width: 1050px;
+    }
+    input[type=submit] {
+        width: 600px;
+        margin-top: 20px;
+        margin-left: 260px;
+    } 
+}
