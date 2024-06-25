@@ -53,6 +53,7 @@ main {
     margin-top: -5px;
     position: relative;
     line-height: 1.5;
+    font-size: 1em;
 }
 h1 {
     font-size: 3em;
@@ -76,6 +77,9 @@ img {
     width: 380px;
     height: auto;
     padding-bottom: 20px;
+}
+#gallery #description {
+    font-size: 1.25em;
 }
 #gallery #location-chile, #gallery #location-hawaii{
     text-transform:uppercase;
@@ -204,17 +208,11 @@ input[type=submit] {
     background: #007d7b;
     border: none;
     border-radius: 15px;
-    /* position: absolute;
-    left: 50%;
-    transform: translate(-80%, -50%); */
     margin-top: 80px;
     width: 200px;
     display: block;
     text-align: center;
     margin: 0 auto;
-}
-#submit-button {
-    align-items: center;
 }
 label {
     font-size: 1em;
@@ -230,12 +228,6 @@ input {
     margin-bottom: 25px;
     width: 350px;
     margin-left: 30px;
-}
-small {
-    font-size: 1em;
-}
-figcaption {
-    font-size: 1em;
 }
 footer {
     text-transform:uppercase;
@@ -253,44 +245,50 @@ footer {
     img {
         margin: 0px 10px 0px 10px;
     }
+    #gallery #description {
+        padding: 0px 30px;
+    }
+    #about p {
+        padding: 0px 30px;
+    }
     #gallery #location-chile {
-        left: 33%;
+        transform: translate(-255%, -50%);
     }
     #gallery #location-guatemala {
-        transform: translate(90%, -50%);
+        transform: translate(80%, -50%);
     }
     #gallery #location-hawaii {
-        transform: translate(-250%, -1740%);
+        transform: translate(-240%, -2245%);
     }
     #gallery #hawaii {
         margin-bottom: 316px;
     }
     #gallery #location-iran {
-        transform: translate(195%, -65%);
+        transform: translate(165%, -65%);
     }
     #gallery #location-ireland {
-        transform: translate(-225%, -20%);
+        transform: translate(-220%, -20%);
     }
     #gallery #location-italy {
-        transform: translate(185%, -50%);
+        transform: translate(165%, -50%);
     }
     #gallery #location-rocky {
-        transform: translate(62%, -40%);
+        transform: translate(54%, -40%);
     }
     #gallery #location-moab {
-        transform: translate(-175%, -30%);
+        transform: translate(-170%, -30%);
     }
     #gallery #location-switzerland {
         transform: translate(-170%, -50%);
     }
     #gallery #location-uk {
-        transform: translate(250%, -60%);
+        transform: translate(210%, -60%);
     }
     #gallery #location-usa {
-        transform: translate(-315%, -60%);
+        transform: translate(-290%, -60%);
     }
     #gallery #location-wyoming {
-        transform: translate(115%, -60%);
+        transform: translate(100%, -60%);
     }
     form {
         margin-left: 55px;
@@ -313,53 +311,38 @@ footer {
         justify-content: right;
     }
     #gallery #location-chile {
-        transform: translate(-230%, -35%);
+        transform: translate(-460%, -35%);
     }
     #gallery #location-guatemala {
-        transform: translate(-55%, -50%);
+        transform: translate(-50%, -50%);
     }
     #gallery #hawaii {
         margin-bottom: 0px;
     }
     #gallery #location-hawaii {
-        transform: translate(355%, -25%);
+        transform: translate(315%, -25%);
     }
     #gallery #location-iran {
-        transform: translate(-540%, -65%);
+        transform: translate(-500%, -65%);
     }
     #gallery #location-ireland {
-        transform: translate(-40%, -40%);
+        transform: translate(-50%, -40%);
     }
     #gallery #location-italy {
-        transform: translate(425%, -50%);
+        transform: translate(375%, -50%);
     }
     #gallery #location-rocky {
-        transform: translate(-48%, -40%);
+        transform: translate(-50%, -40%);
     }
     #gallery #location-moab {
-        transform: translate(-305%, -40%);
+        transform: translate(-295%, -40%);
     }
     #gallery #location-switzerland {
-        transform: translate(205%, -60%);
+        transform: translate(190%, -60%);
     }
     #gallery #location-uk {
-        transform: translate(-660%, -60%);
+        transform: translate(-595%, -60%);
     }
     #gallery #location-usa {
-        transform: translate(-45%, -60%);
-    }
-    #gallery #location-wyoming {
-        transform: translate(275%, -60%);
-    }
-    form {
-        margin-left: 70px;
-    }
-    input {
-        width: 1050px;
-    }
-    input[type=submit] {
-        width: 600px;
-        margin-top: 20px;
-        margin-left: 260px;
-    } 
-}
+        transform: translate(-60%, -60%);
+    
